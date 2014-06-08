@@ -7,4 +7,4 @@ $ie = Open-Browser -Url http://xbox.com -Visible|
     Invoke-BrowserControl -Name SI -Click 
 
 # Once we're in, let's check out recent activity    
-$ie | Set-BrowserLocation -Url http://live.xbox.com/en-US/Activity
+$ie | Push-BrowserLocation -Url http://live.xbox.com/en-US/Activity
