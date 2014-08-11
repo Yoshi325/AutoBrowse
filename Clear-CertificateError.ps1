@@ -15,7 +15,7 @@ function Clear-CertificateError
         Close-Browser
     #>
     [OutputType([PSObject])]
-    param(
+    Param(
         [Parameter(
             Mandatory=$true
           , ValueFromPipeline=$true
